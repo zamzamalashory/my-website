@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <link rel="stylesheet" href="style.css">
-
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>نبذة عني</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>اسمك هنا</h1>
-  <p>نبذة قصيرة عنك...</p>
-  <h2>مهاراتي</h2>
-  <ul>
-    <li>مهارة 1</li>
-    <li>مهارة 2</li>
-  </ul>
-  <h2>تواصل معي</h2>
-  <p>البريد الإلكتروني: example@email.com</p>
+  <header class="hero">
+    <img src="your-photo.jpg" alt="صورة شخصية" class="profile-pic">
+    <h1>اسمك هنا</h1>
+    <p class="subtitle">مطور/ة ويب | مصمم/ة | كاتب/ة محتوى</p>
+  </header>
+
+  <section class="about">
+    <h2>من أنا</h2>
+    <p>أنا مطور/ة ويب متخصص/ة في بناء مواقع وتطبيقات حديثة باستخدام أحدث التقنيات. أحب تبسيط التعلم ومساعدة الآخرين.</p>
+  </section>
+
+  <section class="skills">
+    <h2>مهاراتي</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML5 & CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">PHP</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>تواصل معي</h2>
+    <a href="mailto:example@email.com" class="button">أرسل لي بريدًا</a>
+  </section>
+
+  <footer>
+    <p>© 2025 جميع الحقوق محفوظة</p>
+  </footer>
 </body>
 </html>
